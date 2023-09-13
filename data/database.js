@@ -1,7 +1,7 @@
 const mongodb = require('mongodb');
 
 const MongoClient = mongodb.MongoClient;
-let mongodbUrl="mongodb://0.0.0.0";
+let mongodbUrl="mongodb+srv://venkyeswar2037:7112001Venky@cluster0.qpo13la.mongodb.net/?retryWrites=true&w=majority";
 
 
 if(process.env.MONGODB_URL){
